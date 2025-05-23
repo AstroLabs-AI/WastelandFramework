@@ -1,0 +1,47 @@
+{
+  "itemGroup.wastelandframework": "Wasteland Framework",
+  
+  "block.wastelandframework.contaminated_soil": "Contaminated Soil",
+  "block.wastelandframework.ash_layer": "Ash Layer",
+  
+  "item.wastelandframework.metal_scrap": "Metal Scrap",
+  "item.wastelandframework.electronic_scrap": "Electronic Scrap",
+  "item.wastelandframework.cloth_scrap": "Cloth Scrap",
+  "item.wastelandframework.plastic_scrap": "Plastic Scrap",
+  "item.wastelandframework.mechanical_parts": "Mechanical Parts",
+  "item.wastelandframework.contaminated_water": "Contaminated Water",
+  
+  "item.wastelandframework.scrap.metal.desc": "Common salvaged metal pieces",
+  "item.wastelandframework.scrap.electronic.desc": "Salvaged circuits and wires",
+  "item.wastelandframework.scrap.cloth.desc": "Torn fabric and materials",
+  "item.wastelandframework.scrap.plastic.desc": "Various plastic components",
+  "item.wastelandframework.scrap.mechanical.desc": "Gears, springs, and mechanisms",
+  
+  "item.wastelandframework.contaminated_water.warning": "WARNING: Contaminated!",
+  "item.wastelandframework.contaminated_water.desc": "Dirty water that needs purification",
+  
+  "effect.wastelandframework.radiation": "Radiation",
+  
+  "commands.wastelandframework.debug.info": "Displaying debug information",
+  "commands.wastelandframework.modules.list": "Listing active modules",
+  "commands.wastelandframework.reload.success": "Configuration reloaded successfully",
+  "commands.wastelandframework.reload.failed": "Failed to reload configuration",
+  
+  "gui.wastelandframework.config.title": "Wasteland Framework Configuration",
+  
+  "death.attack.radiation": "%1$s died from radiation poisoning",
+  "death.attack.radiation.player": "%1$s died from radiation poisoning",
+  "death.attack.acidRain": "%1$s was dissolved by acid rain",
+  "death.attack.acidRain.player": "%1$s was dissolved by acid rain",
+  
+  "subtitles.wastelandframework.ambient.geiger": "Geiger counter clicks",
+  "subtitles.wastelandframework.ambient.wind": "Wasteland wind",
+  "subtitles.wastelandframework.ambient.siren": "Distant siren",
+  
+  "advancement.wastelandframework.root": "Welcome to the Wasteland",
+  "advancement.wastelandframework.root.description": "A new world awaits",
+  "advancement.wastelandframework.survive_radiation": "Radiation Survivor",
+  "advancement.wastelandframework.survive_radiation.description": "Survive radiation exposure",
+  "advancement.wastelandframework.find_bunker": "Shelter Found",
+  "advancement.wastelandframework.find_bunker.description": "Discover a wasteland bunker"
+}

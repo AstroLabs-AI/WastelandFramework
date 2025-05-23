@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "wastelandframework:block/contaminated_soil"
+    }
+  }
+}

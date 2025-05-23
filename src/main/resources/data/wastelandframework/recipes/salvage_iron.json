@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "wastelandframework:metal_scrap"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_nugget",
+    "count": 2
+  }
+}

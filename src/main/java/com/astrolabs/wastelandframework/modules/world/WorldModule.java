@@ -14,9 +14,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.biome.Biome;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraftforge.common.world.BiomeModifier;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
@@ -26,10 +24,7 @@ import java.util.Map;
 import java.util.Random;
 
 public class WorldModule implements IModule {
-    private static final DeferredRegister<BiomeModifier> BIOME_MODIFIERS = 
-        DeferredRegister.create(ForgeRegistries.Keys.BIOME_MODIFIERS, WastelandFramework.MODID);
-    
-    // Blocks
+    // Blocks - these static registrations are fine since they use the main registry
     public static final RegistryObject<Block> CONTAMINATED_SOIL = WastelandRegistries.BLOCKS.register("contaminated_soil",
         () -> new ContaminatedSoilBlock());
     
@@ -69,12 +64,8 @@ public class WorldModule implements IModule {
     
     @Override
     public void onRegister(IEventBus modBus, IEventBus forgeBus) {
-        BIOME_MODIFIERS.register(modBus);
-        
-        // Register biome modifier
-        RegistryObject<BiomeModifier> wastelandModifier = BIOME_MODIFIERS.register("wasteland_surface", 
-            () -> new WastelandBiomeModifier());
-        
+        // For now, skip biome modifier registration as it's causing issues
+        // TODO: Implement biome modification in a future update
         WastelandFramework.LOGGER.info("World Module registered");
     }
     

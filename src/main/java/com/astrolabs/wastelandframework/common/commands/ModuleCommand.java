@@ -33,7 +33,8 @@ public class ModuleCommand {
                     return 1;
                 })
             )
-            .then(Commands.literal("info")
+            // Temporarily disable the info command that uses custom argument type
+            /*.then(Commands.literal("info")
                 .then(Commands.argument("module", ModuleArgument.module())
                     .executes(context -> {
                         var source = context.getSource();
@@ -54,6 +55,6 @@ public class ModuleCommand {
                         return 1;
                     })
                 )
-            );
+            )*/;
     }
 }
